@@ -1,6 +1,6 @@
 
 
-#NOTE: any Variable is default set to str(String) excluding List, tuple, set and dictionary
+# NOTE: any Variable is default set to str(String) excluding List, tuple, set and dictionary
 
 # Numbers
 # Integer (whole)
@@ -27,7 +27,7 @@ print(type(isMarried))
 a = 1+7j
 print(type(a))
 
-#Python is used AI, ML, DS, Math - they need
+# Python is used AI, ML, DS, Math - they need
 
 # str Data Type(String)
 name = "Mohit"
@@ -36,4 +36,3 @@ char = 'L'
 print(type(name))
 print(type(name2))
 print(type(char))
-
