@@ -12,7 +12,7 @@ print(type(num2))
 print(num2)
 num3 = num1 + num2
 
-# Default Variable will always consider as the "str" data type
+# Any Variable will Default consider as the "str" data type
 # str + str -> concat -> combine them or join them
 print(type(num3))
 print(num3)
