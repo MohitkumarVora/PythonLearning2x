@@ -9,4 +9,3 @@ print("print my_daily_task data type: ", type(my_daily_Task))
 my_favorite_fruits = {"apple", "kiwi", "pineapple", "orange", "banana", "apple"}
 print("My favorite fruit is: ", my_favorite_fruits)
 print("print my_favorite_fruits data type: ", my_favorite_fruits)
-
