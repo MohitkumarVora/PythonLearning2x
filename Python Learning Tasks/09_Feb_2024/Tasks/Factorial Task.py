@@ -31,8 +31,9 @@ elif number == 0:
     print("Factorial of 0 is 1.")
 else:
     for i in range(number, 0, -1):
+        j = fact
         fact = fact * i
-        print(fact, "=", number, "* ", i)
+        print(fact, "=", i, "* ", j)
 print("Factorial of ", number, "is ", fact)
 """
 
