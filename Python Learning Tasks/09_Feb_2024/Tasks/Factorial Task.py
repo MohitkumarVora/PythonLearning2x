@@ -14,7 +14,7 @@ if number < 0:
 elif number == 0:
     print("Factorial of 0 is 1.")
 else:
-    for i in range(1, number + 1, 1):
+    for i in range(1, number + 1, 1):  # define range is (start, stop, step), also increment range step is auto applied, here i am using step to remember the range params
         j = fact
         fact = fact * i
         print(fact, "= ", i, "* ", j)
