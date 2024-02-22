@@ -14,3 +14,14 @@ match numbers:  # BREAK IS NOT NEEDED in case of Match and CASE
         print("You have entered 5")
     case _:
         print("No idea")
+
+# Another example of Match Case
+browser = str(input("Enter the browser name\n"))
+browser = browser.lower()
+match browser:
+    case "chrome":
+        print("Chrome code executed!")
+    case "firefox":
+        print("FF code executed!")
+    case _:
+        print("No browser Found!")
