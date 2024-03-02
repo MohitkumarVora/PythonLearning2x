@@ -1,1 +1,2 @@
-print("Akash")
+name = "Mohit"
+print(name)
