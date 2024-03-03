@@ -47,3 +47,11 @@ print(my_copy_list[0])
 print(my_copy_list[1])
 print(my_copy_list[2])
 print(my_copy_list[3])
+
+
+try:
+    my_list = [True, "Pramod", 12.34, 90]  # TypeError: '<' not supported between instances
+    my_list.sort()
+    print(my_list)
+except Exception as e:
+    print(e)
