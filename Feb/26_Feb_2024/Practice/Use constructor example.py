@@ -4,10 +4,10 @@ class Car:
     model = None
 
     # Initialize the Constractor
-    def __init__(self, Car_name, Car_make, Car_model):  # Special F(n), called Object is created!
-        self.name = Car_name
-        self.make = Car_make
-        self.model = Car_model
+    def __init__(self, car_name, car_make, car_model):  # Special F(n), called Object is created!
+        self.name = car_name
+        self.make = car_make
+        self.model = car_model
 
     def start_engine(self):
         print("Starting a car with the name " + self.name)
